@@ -1,8 +1,8 @@
 SSIS: ForEach Loop without stage table in DB; load Excel/Flat file data to Memory as variables for next operations
 
 Purpose: 
-This simple demo SSIS package is providing a flexible approach to fetch data from excel and/or flat file to memory without stage table in DB, and iterate the data for next steps. This method is important as more types of data sources need to be access in this BIG DATA era. 
-
+This simple demo SSIS package is providing a flexible approach to fetch data from excel and/or flat file to memory without stage table in DB, and iterate the data for next steps. 
+This method is important as more types of data sources need to be access in this BIG DATA era. 
 Cursors are the common method in SQL queries. However, cursors need fetch data from DB instead of excel/flat file and usually difficult to debug and/or test data. 
 
 Steps: 
