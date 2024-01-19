@@ -1,4 +1,7 @@
-SSIS: Loop without stage table in DB; load Excel data to Memory as variables for next operations
+SSIS: ForEach Loop without stage table in DB; load Excel data to Memory as variables for next operations
+
+Purpose: This simple demo package is providing a flexible approach to fetch data from excel and/or flat file to memory without stage table in DB, and iterate the data for next steps.
+Cursors are the common method in SQL queries. However, cursors need fetch data from DB instead of excel/flat file and usually difficult to debug and/or test data. 
 
 Steps: 
 1. Setup file folders in your local machine. Here is 'C:\FILES\'
@@ -12,9 +15,8 @@ Steps:
 3. Run it and create three files renamed with three rows of data in Excel. 
 
 Note: 
-1. Similar following operations like 'Execute SQL Task':running stored proc using data from excel as variables; script task; Data flow task ...
-2. If flat file as data source, need first ETL to excel file using DATA FLOW TASK. 
-3. Pros: Provide a flexible approach: avoid stage table in DB to store data from excel; avoid cursor in SQL query; easy to debug; Cons: small amount of input data as variable
+1. If flat file as data source, need first ETL to excel file using DATA FLOW TASK. 
+2. Similar following operations like 'Execute SQL Task':running stored proc using data from excel as variables; script task; Data flow task ... 
 
 TESTED SUCESSFULLY in VS2017 Community Version
 
