@@ -7,7 +7,7 @@ Cursors are the common method in SQL queries. However, cursors need fetch data f
 
 Steps: 
 1. Setup file folders in your local machine. Here is 'C:\FILES\'
-2. Create a simple excel file with User data "C:\FILES\Sources.xlsx", add three rows of data in 'User' sheet, here input: messi, ford, Tesla. 
+2. Create a simple excel file with User data "C:\FILES\Sources.xlsx", add three rows of data in 'User' sheet, here three input: messi, ford, Tesla. 
 3. Create a simple flat file C:\FILES\File.txt. 
 4. Create SSIS package using the provided code with minor changes, OR, 
    create from scratch: 
